@@ -16,8 +16,9 @@ public class Increasing_Array {
         for(int i=0;i<n;i++){
 
 
-            mx=Math.max(mx,Integer.valueOf(arr[i]));
+            mx=Math.max(mx,Integer.valueOf(arr[i])); //  maximum so far
             ans+=mx-Integer.valueOf(arr[i]);
+
 
 
 //            if(i-1>=0){

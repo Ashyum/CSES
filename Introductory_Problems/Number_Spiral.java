@@ -30,7 +30,7 @@ public class Number_Spiral {
                     System.out.println(col*col-row+1);
                 }
                 else{
-//                    System.out.println(col*col-col+1);??Why is this wrong?
+//                    System.out.println(col*col-col+1);??Why is this wrong?//this is wrong
                     System.out.println((col-1)*(col-1)+1+row-1);
                 }
             }
